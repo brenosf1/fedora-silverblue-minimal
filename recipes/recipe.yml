@@ -36,12 +36,10 @@ modules:
   - type: default-flatpaks
     configurations:
       - scope: user
-        repo: https://dl.flathub.org/repo/flathub.flatpakrepo
         # you can override the title to make inclusion of both system and user repos clearer
         title: Flathub (user)
       - notify: true
         scope: system
-        repo: https://dl.flathub.org/repo/flathub.flatpakrepo
         title: Flathub (system)
         install: # system flatpaks we want all users to have and not remove
           - org.mozilla.firefox
