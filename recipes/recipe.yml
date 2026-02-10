@@ -35,7 +35,7 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true
+        notify: true
         scope: system
         repo:
           title: Flathub (system)
