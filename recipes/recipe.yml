@@ -38,6 +38,7 @@ modules:
         - htop
         - nvtop
         - adw-gtk3-theme
+        - distrobox
 
   - type: default-flatpaks
     configurations:
