@@ -4,7 +4,7 @@ on:
 
 env:
   ARCH: x86_64
-  IMAGE_NAME: clean-os
+  IMAGE_NAME: fedora-silverblue-minimal
   IMAGE_REPO: ghcr.io/${{ github.repository_owner }}
   IMAGE_TAG: latest
   VERSION: 43
