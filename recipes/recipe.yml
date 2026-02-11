@@ -24,6 +24,7 @@ modules:
       packages:
         - zsh
         - steam-devices
+        - jetbrains-mono-fonts
       exclude:
         - steam
     remove:
