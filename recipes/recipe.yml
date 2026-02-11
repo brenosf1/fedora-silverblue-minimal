@@ -7,7 +7,7 @@ description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 43 # latest is also supported if you want new updates ASAP
+image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -36,8 +36,8 @@ modules:
   - type: default-flatpaks
     configurations:
       - notify: true
-        scope: user
-        title: Flathub (user)
+        scope: system
+        title: Flathub (system)
         install: # system flatpaks we want all users to have and not remove
           - com.brave.Browser
           - com.mattjakeman.ExtensionManager
