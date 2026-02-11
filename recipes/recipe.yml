@@ -41,7 +41,6 @@ modules:
         - distrobox
         - solaar-udev
         - openrgb-udev-rules
-        - fedora-workstation-backgrounds
         - gnome-shell-extension-launch-new-instance
         - gnome-shell-extension-places-menu
         - gnome-shell-extension-window-list
