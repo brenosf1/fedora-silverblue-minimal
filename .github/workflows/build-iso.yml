@@ -4,10 +4,10 @@ on:
 
 env:
   ARCH: x86_64
-  IMAGE_NAME: Clean OS
+  IMAGE_NAME: Fedora-Silverblue-Minimal
   IMAGE_REPO: ghcr.io/${{ github.repository_owner }}
   IMAGE_TAG: latest
-  VERSION: latest
+  VERSION: 43
   VARIANT: Silverblue
 
 jobs:
