@@ -46,6 +46,11 @@ modules:
         - gnome-shell-extension-window-list
         - gnome-shell-extension-apps-menu
         - vim
+        - vim-data
+        - vim-minimal
+        - vim-filesystem
+        - vim-common
+        - vim-enhanced
 
   - type: default-flatpaks
     configurations:
