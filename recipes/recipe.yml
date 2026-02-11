@@ -32,6 +32,7 @@ modules:
         - gnome-tour
         - htop
         - nvtop
+        - adw-gtk3-theme
 
   - type: default-flatpaks
     configurations:
