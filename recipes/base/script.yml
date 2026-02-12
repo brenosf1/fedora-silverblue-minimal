@@ -3,7 +3,4 @@ modules:
   snippets:
     - "mkdir -p /etc/skel/.config"
     - "mkdir -p /etc/skel/.local/share/themes"
-  
-  scripts:
-    - chmod +x /usr/local/bin/configure-bluetooth.sh
-    - /usr/local/bin/configure-bluetooth.sh
+    - "mkdir -p /etc/bluetooth/main.conf.d"
