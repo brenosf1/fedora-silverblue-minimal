@@ -19,26 +19,7 @@ modules:
 
   - from-file: dnf.yml
 
-  - type: default-flatpaks
-    configurations:
-      - notify: true
-        scope: system
-        title: Flathub (system)
-        install: # system flatpaks we want all users to have and not remove
-          - com.brave.Browser
-          - com.mattjakeman.ExtensionManager
-          - com.valvesoftware.Steam
-          - io.github.kolunmi.Bazaar
-          - org.gnome.TextEditor
-          - org.gnome.Loupe
-          - org.gnome.Weather
-          - org.gnome.Calendar
-          - org.gnome.Logs
-          - org.gnome.Calculator
-          - org.gnome.Papers
-          - org.gnome.clocks
-          - com.heroicgameslauncher.hgl
-          - com.vysp3r.ProtonPlus
+  - from-file: default-flatpaks.yml
 
   - from-file: gnome-extensions.yml
       
