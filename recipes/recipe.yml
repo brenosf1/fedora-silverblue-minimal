@@ -14,8 +14,9 @@ image-version: latest # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-      - source: system/usr/monitor.xml
+      - source: monitor.xml
         destination: /usr/etc/skel/.config/monitors.xml
+      
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
