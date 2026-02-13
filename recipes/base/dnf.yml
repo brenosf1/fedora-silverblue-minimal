@@ -8,6 +8,7 @@ modules:
       - steam-devices
       - zoxide
       - gnome-shell-extension-gsconnect
+      - oh-my-posh
     exclude:
       - steam
   remove:
