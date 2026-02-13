@@ -7,8 +7,5 @@ modules:
       - source: monitors.xml
         destination: /etc/skel/.config/monitors.xml
 
-      - source: icons
+      - source: icons/Adwaita-colors
         destination: /usr/share/icons
-
-      - source: scripts/morewaita.sh
-        destination: /usr/local/bin/morewaita.sh
