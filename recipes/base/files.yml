@@ -7,5 +7,5 @@ modules:
       - source: monitors.xml
         destination: /etc/skel/.config/monitors.xml
 
-      - source: icons/Adwaita-colors
+      - source: icons/Adwaita-colors/
         destination: /usr/share/icons
