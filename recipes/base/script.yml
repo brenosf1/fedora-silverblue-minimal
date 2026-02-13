@@ -3,4 +3,3 @@ modules:
   snippets:
     - "mkdir -p /etc/skel/.config"
     - "mkdir -p /etc/skel/.local/share/themes"
-    - "rm -rf /etc/bluetooth/main.conf.d"
