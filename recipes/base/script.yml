@@ -4,6 +4,7 @@ modules:
     - "mkdir -p /etc/skel/.config"
     - "chmod +x /usr/local/bin/morewaita.sh"
     - "/usr/local/bin/morewaita.sh"
-
+    - "rm -f /usr/local/bin/morewaita.sh"
+  
   scripts: 
     - post-install-remove.sh
