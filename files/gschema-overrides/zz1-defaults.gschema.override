@@ -2,7 +2,6 @@
 accel-profile='flat'
 
 [org.gnome.shell]
-disabled-extensions=['background-logo@fedorahosted.org']
 enabled-extensions=['background-logo@fedorahosted.org', 'blur-my-shell@aunetx', 'fullscreen-avoider@noobsai.github.com', 'gsconnect@andyholmes.github.io', 'caffeine@patapon.info', 'appindicatorsupport@rgcjonas.gmail.com', 'rounded-window-corners@fxgn']
 favorite-apps=['com.brave.Browser.desktop', 'org.gnome.Nautilus.desktop', 'io.github.kolunmi.Bazaar.desktop']
 
