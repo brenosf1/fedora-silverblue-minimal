@@ -1,6 +1,5 @@
 #!/bin/sh
 
-rm -f /usr/local/bin/morewaita.sh
 rm -f /usr/share/icons/LICENSE
 rm -f /usr/share/icons/README.md
 rm -f /usr/share/icons/get-it-on-ge.png
