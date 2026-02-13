@@ -25,7 +25,6 @@ modules:
       - gnome-tour
       - htop
       - nvtop
-      - adw-gtk3-theme
       - distrobox
       - solaar-udev
       - openrgb-udev-rules
