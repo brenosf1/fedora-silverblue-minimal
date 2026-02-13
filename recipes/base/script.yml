@@ -2,5 +2,5 @@ modules:
 - type: script
   snippets:
     - "mkdir -p /etc/skel/.config"
-    - "chmod +x /usr/share/icons/Adwaita-colors/morewaita.sh"
-    - "/usr/share/icons/Adwaita-colors/morewaita.sh"
+    - "chmod +x /usr/local/bin/morewaita.sh"
+    - "/usr/local/bin/morewaita.sh"
