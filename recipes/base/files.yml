@@ -16,3 +16,9 @@ modules:
       - source: config/gtk-4.0
         destination: /etc/skel/.config/gtk-4.0
 
+      - source: monitors.xml
+        destination: /etc/skel/.config
+
+      - source: scripts/morewaita.sh
+        destination: /usr/local/bin
+
