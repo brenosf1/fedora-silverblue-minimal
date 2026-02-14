@@ -22,3 +22,7 @@ modules:
       - source: scripts/morewaita.sh
         destination: /usr/local/bin/morewaita.sh
 
+      - source: backgrounds/gdm_default.png
+        destination: /usr/share/backgrounds/gdm_default.png
+
+
