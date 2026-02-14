@@ -10,9 +10,6 @@ modules:
       - source: icons/Adwaita-colors/
         destination: /usr/share/icons
 
-      - source: scripts/morewaita.sh
-        destination: /usr/local/bin/morewaita.sh
-
       - source: backgrounds/default.png
         destination: /usr/share/backgrounds/default.png
 
