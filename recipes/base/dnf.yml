@@ -12,6 +12,7 @@ modules:
       - gnome-shell-extension-gsconnect
       - oh-my-posh
       - morewaita-icon-theme
+      - gresource
     exclude:
       - steam
   remove:
