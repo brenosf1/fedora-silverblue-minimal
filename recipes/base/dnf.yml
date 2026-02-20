@@ -6,6 +6,7 @@ modules:
     - trixieua/morewaita-icon-theme
   install:
     packages:
+      - chromium
       - libva-intel-driver
       - zsh
       - steam-devices
