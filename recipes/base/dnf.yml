@@ -1,11 +1,16 @@
 modules:
 - type: dnf
   repos:
+    - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
     nonfree: rpmfusion
     copr:
     - trixieua/morewaita-icon-theme
   install:
     packages:
+      - brave-browser
+      - ffmpeg-libs
+      - libva-intel-driver
+      - libva-utils
       - zsh
       - steam-devices
       - zoxide
